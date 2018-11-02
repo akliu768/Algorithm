@@ -1,4 +1,11 @@
 # Algorithm use Python
 * Binary search
-
-TEST TEST TEST
+O()
+一般法则
+法则1--for循环
+一次for循环的运行时间至多是该for循环内语句（包括测试）的运行时间乘以迭代次数。
+法则2--嵌套for循环
+从里向外分析这些循环。在一组嵌套循环内部的一条语句总的运行时间为该语句的运行时间乘以该组所有的for循环的大小的乘积。
+作为一个例子，下列程序片段为O(N方)：
+for i < n:
+    for j < n:
